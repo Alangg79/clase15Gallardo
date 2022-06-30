@@ -124,4 +124,9 @@ document.querySelector("#vaciarCarrito").addEventListener("click",() => {
       )
 })
 
+//AJAX Y FETCH
 
+fetch("https://github.com/Alangg79/clase15Gallardo/data/data.json")
+.then((response)=> response.json())
+
+.then((data) =>console.log(data)) 
